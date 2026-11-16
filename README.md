@@ -5,7 +5,6 @@
 - **Mobile / WhatsApp:** +91 9360116576
 - **LinkedIn:** [linkedin.com/in/barathwaj-devadoss-122649211](https://linkedin.com/in/barathwaj-devadoss-122649211)
 - **Current Location:** Chennai, Tamil Nadu, India
-- **Target Market:** Singapore *(Available for Immediate Relocation & Executive Interviews)*
 
 ---
 
@@ -25,7 +24,7 @@
 ---
 
 ## Executive Profile Summary
-Accomplished Commercial Lines Claims and Underwriting Professional with over ten years of expertise driving end-to-end maritime, property, engineering, and liability risk management across leading insurers and top-tier brokerages. Proven success in managing multi-crore technical loss assessments, optimizing claims lifecycles, and spearheading complex dispute resolutions with surveyors and insurers. Skilled in integrating AI workflows to streamline claims research, conducting rigorous IRDA and Ombudsman regulatory compliance, and negotiating favorable corporate terms, seeking to deliver strategic risk governance and claims advocacy excellence for dynamic international organizations in Singapore.
+Accomplished Commercial Lines Claims and Underwriting Professional with over ten years of expertise driving end-to-end maritime, property, engineering, and liability risk management across leading insurers and top-tier brokerages. Proven success in managing multi-crore technical loss assessments, optimizing claims lifecycles, and spearheading complex dispute resolutions with surveyors and insurers. Skilled in integrating AI workflows to streamline claims research, conducting rigorous IRDA and Ombudsman regulatory compliance, and negotiating favorable corporate terms, seeking to deliver strategic risk governance and claims advocacy excellence for dynamic corporate organizations and international brokerages.
 
 ---
 

@@ -1583,98 +1583,6 @@
       font-size: 7px;
     }
     
-    /* Singapore Value Proposition Card */
-    .singapore-card {
-      background: linear-gradient(135deg, #0A1128 0%, #001A4E 60%, #003893 100%);
-      color: #FFFFFF;
-      border-radius: var(--radius-card);
-      padding: 44px 38px;
-      box-shadow: 0 20px 40px -10px rgba(0, 26, 78, 0.4);
-      margin: 48px 0;
-      position: relative;
-      overflow: hidden;
-    }
-    
-    .singapore-card::after {
-      content: '';
-      position: absolute;
-      top: -50%;
-      right: -20%;
-      width: 500px;
-      height: 500px;
-      background: radial-gradient(circle, rgba(0, 86, 179, 0.25) 0%, rgba(0,0,0,0) 70%);
-      border-radius: 50%;
-      pointer-events: none;
-    }
-    
-    .sg-content {
-      position: relative;
-      z-index: 1;
-    }
-    
-    .sg-tag {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      background: rgba(255, 255, 255, 0.15);
-      border: 1px solid rgba(255, 255, 255, 0.25);
-      padding: 5px 14px;
-      border-radius: var(--radius-pill);
-      font-size: 12px;
-      font-weight: 700;
-      color: #FFFFFF;
-      margin-bottom: 14px;
-    }
-    
-    .sg-title {
-      font-size: 30px;
-      font-weight: 800;
-      color: #FFFFFF;
-      margin-bottom: 12px;
-    }
-    
-    .sg-desc {
-      font-size: 15px;
-      color: rgba(255, 255, 255, 0.85);
-      max-width: 820px;
-      line-height: 1.65;
-      margin-bottom: 24px;
-    }
-    
-    .sg-pillars-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 16px;
-      margin-bottom: 28px;
-    }
-    
-    .sg-pillar-item {
-      background: rgba(255, 255, 255, 0.08);
-      border: 1px solid rgba(255, 255, 255, 0.12);
-      border-radius: 12px;
-      padding: 16px 14px;
-      backdrop-filter: blur(5px);
-    }
-    
-    .sg-pillar-icon {
-      font-size: 18px;
-      color: #38BDF8;
-      margin-bottom: 8px;
-    }
-    
-    .sg-pillar-title {
-      font-size: 13.5px;
-      font-weight: 800;
-      color: #FFFFFF;
-      margin-bottom: 5px;
-    }
-    
-    .sg-pillar-desc {
-      font-size: 11.5px;
-      color: rgba(255, 255, 255, 0.75);
-      line-height: 1.45;
-    }
-    
     /* Credentials & Education Grid */
     .cred-grid {
       display: grid;
@@ -2039,7 +1947,6 @@
         <li><a href="#skills" class="apple-nav-link">Expertise</a></li>
         <li><a href="#projects" class="apple-nav-link">Projects</a></li>
         <li><a href="#credentials" class="apple-nav-link">Credentials</a></li>
-        <li><a href="#singapore" class="apple-nav-link">Singapore</a></li>
         <li><a href="#contact" class="apple-nav-link">Contact</a></li>
       </ul>
       
@@ -2059,11 +1966,7 @@
     <div class="container hero-grid">
       <!-- Hero Text Column -->
       <div class="hero-text-col">
-        <div class="hero-pill-badge">
-          <span class="pulse-dot"></span>
-          <span>Target Market: Singapore (Available for Immediate Relocation)</span>
-        </div>
-        
+
         <h1 class="hero-title">BARATHWAJ DEVADOSS</h1>
         <div class="hero-subtitle">
           Commercial Lines Claims & Underwriting Manager | Maritime & Technical Risk Specialist
@@ -3102,55 +3005,6 @@
     </div>
   </section>
 
-  <!-- Singapore Strategic Fit & Value Proposition -->
-  <section class="section" id="singapore">
-    <div class="container">
-      <div class="singapore-card">
-        <div class="sg-content">
-          <div class="sg-tag">
-            <i class="fa-solid fa-plane-departure"></i> Target Market: Singapore
-          </div>
-          <h2 class="sg-title">Strategic Value for Singapore Risk & Broking Ecosystem</h2>
-          <p class="sg-desc">
-            Singapore is the premier maritime, trading, and specialty insurance hub of Asia-Pacific. My 10+ year trajectory blends heavy engineering diagnostic capability with deep expertise in international maritime risk (ICC A/B/C, General Average), foreign currency claim advocacy, British Council certified English fluency, and AI claims acceleration.
-          </p>
-          
-          <div class="sg-pillars-grid">
-            <div class="sg-pillar-item">
-              <div class="sg-pillar-icon"><i class="fa-solid fa-anchor"></i></div>
-              <h4 class="sg-pillar-title">Maritime & Cargo Focus</h4>
-              <p class="sg-pillar-desc">Deep mastery in Institute Cargo Clauses, transit risk assessment, and GA claims governance aligned with Singapore's trading hub.</p>
-            </div>
-            
-            <div class="sg-pillar-item">
-              <div class="sg-pillar-icon"><i class="fa-solid fa-money-bill-transfer"></i></div>
-              <h4 class="sg-pillar-title">Cross-Border / Multi-Currency</h4>
-              <p class="sg-pillar-desc">Demonstrated success settling foreign currency-denominated losses (INR 30 Cr single event) with international syndicates.</p>
-            </div>
-            
-            <div class="sg-pillar-item">
-              <div class="sg-pillar-icon"><i class="fa-solid fa-bolt"></i></div>
-              <h4 class="sg-pillar-title">Engineering & NAT CAT Rigor</h4>
-              <p class="sg-pillar-desc">Electrical & Wind Energy engineering background paired with RMD meteorological modeling and catastrophic NAT CAT adjusting.</p>
-            </div>
-            
-            <div class="sg-pillar-item">
-              <div class="sg-pillar-icon"><i class="fa-solid fa-comments"></i></div>
-              <h4 class="sg-pillar-title">Certified Global Communication</h4>
-              <p class="sg-pillar-desc">British Council Certified Advanced Intermediate English proficiency ensuring crisp advocacy across multinational boards.</p>
-            </div>
-          </div>
-          
-          <div>
-            <a href="#contact" class="btn btn-primary" style="background: #38BDF8; color: #001A4E; border-color: #38BDF8; font-weight: 800;">
-              <i class="fa-solid fa-comments"></i> Initiate Interview / Relocation Discussion
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Credentials, Education & Research Section -->
   <section class="section" id="credentials">
     <div class="container">
@@ -3254,7 +3108,7 @@
           <span class="section-tag">Direct Engagement</span>
           <h3>Let's Connect</h3>
           <p>
-            Available for immediate relocation to Singapore and executive discussions regarding Commercial Lines Claims Advocacy, Marine Underwriting, and Technical Risk Governance.
+            Available for executive discussions and leadership opportunities regarding Commercial Lines Claims Advocacy, Marine Underwriting, and Technical Risk Governance.
           </p>
           
           <div class="contact-methods">
@@ -3285,8 +3139,8 @@
             <div class="contact-method-item">
               <div class="contact-method-icon"><i class="fa-solid fa-location-dot"></i></div>
               <div class="contact-method-detail">
-                <h6>Location / Target Market</h6>
-                <span>Chennai, India → Singapore (Immediate Relocation)</span>
+                <h6>Location / Base</h6>
+                <span>Chennai, Tamil Nadu, India</span>
               </div>
             </div>
           </div>
@@ -3336,7 +3190,7 @@
               </div>
             </a>
             
-            <a href="mailto:barathwaj1990@gmail.com?subject=Executive%20Opportunity%20Discussion%20-%20Singapore%20/%20Commercial%20Lines" class="btn btn-dark" style="justify-content: center; margin-top: 6px;">
+            <a href="mailto:barathwaj1990@gmail.com?subject=Executive%20Opportunity%20Discussion%20-%20Commercial%20Lines%20Claims%20Leadership" class="btn btn-dark" style="justify-content: center; margin-top: 6px;">
               <i class="fa-solid fa-paper-plane"></i> Send Direct Email Inquiry
             </a>
           </div>
@@ -3362,7 +3216,6 @@
           <li><a href="#skills" class="footer-link">Expertise</a></li>
           <li><a href="#projects" class="footer-link">Projects</a></li>
           <li><a href="#credentials" class="footer-link">Credentials</a></li>
-          <li><a href="#singapore" class="footer-link">Singapore</a></li>
           <li><a href="#contact" class="footer-link">Contact</a></li>
         </ul>
       </div>
